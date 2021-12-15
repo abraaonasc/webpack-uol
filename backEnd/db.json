@@ -1,0 +1,12 @@
+{
+  "nomeCad": [
+    {
+      "id": 1,
+      "nome": "Abraao"
+    },
+    {
+      "nome": "Ana",
+      "id": 2
+    }
+  ]
+}
