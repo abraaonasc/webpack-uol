@@ -27,6 +27,7 @@ class ActionHttp {
 
 
               document.querySelector('.getNames ul').appendChild(li)
+              
           }
       })
       .catch(function (error) {

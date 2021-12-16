@@ -20,7 +20,8 @@ class Click {
             });
 
             setTimeout(() => {
-                post.getNames()
+              //  post.getNames()
+                window.location.href='/'
             }, 500);
         }
     }
@@ -41,8 +42,9 @@ class Click {
                     });
 
                     setTimeout(() => {
-                        post.getNames()
-                    }, 1000);
+                      //  post.getNames()
+                        window.location.href='/'
+                    }, 500);
 
                 }
             });
@@ -79,8 +81,9 @@ class Click {
                                 });
             
                                 setTimeout(() => {
-                                    post.getNames()
-                                }, 1000);
+                                    //post.getNames()
+                                    window.location.href='/'
+                                }, 500);
             
                             }
                         });

@@ -1,7 +1,7 @@
 import Heading from './heading'
 import Forming from './form'
 import NamesService from '../backEnd/service'
-import GetNames from '../src/getNames'
+import GetNames from './getNames'
 import Click from './clickEvents'
 import './scss/style.scss'
 
