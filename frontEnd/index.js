@@ -1,8 +1,8 @@
-import Heading from './heading'
-import Forming from './form'
+import Heading from './js/heading'
+import Forming from './js/form'
 import NamesService from '../backEnd/service'
-import GetNames from './getNames'
-import Click from './clickEvents'
+import GetNames from './js/getNames'
+import Click from './js/clickEvents'
 import './scss/style.scss'
 
 

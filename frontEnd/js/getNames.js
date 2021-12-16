@@ -1,4 +1,4 @@
-import './scss/namelist.scss'
+import '../scss/namelist.scss'
 
 class getName {
      showForm = () =>{

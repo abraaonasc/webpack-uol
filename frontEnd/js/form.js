@@ -1,4 +1,4 @@
-import './scss/form.scss'
+import '../scss/form.scss'
 
 class FormCad {
     form = () =>{

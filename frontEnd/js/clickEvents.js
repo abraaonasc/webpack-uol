@@ -1,5 +1,5 @@
-import './scss/form.scss'
-import NameCad from '../backEnd/service'
+import '../scss/form.scss'
+import NameCad from '../../backEnd/service'
 
 const post = new NameCad()
 
@@ -11,18 +11,25 @@ class Click {
             event.preventDefault()
             let id 
             let name = document.querySelector('#name').value 
-            post.postName(id,name)
+
+            if (name != ''){
+                post.postName(id,name)
+
+                let lis = document.querySelectorAll('.getNames ul li')
+                lis.forEach(element => {
+                    element.remove()
+                });
+    
+                setTimeout(() => {
+                  //  post.getNames()
+                    window.location.href='/'
+                }, 500);
+            } else {
+                alert('o campo está vázio, por favor preencha um nome')
+            }
 
             
-            let lis = document.querySelectorAll('.getNames ul li')
-            lis.forEach(element => {
-                element.remove()
-            });
 
-            setTimeout(() => {
-              //  post.getNames()
-                window.location.href='/'
-            }, 500);
         }
     }
 
