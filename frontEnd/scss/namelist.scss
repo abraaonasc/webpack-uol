@@ -11,7 +11,9 @@
         padding: 0 25px;
         
         li{
+            font-size: 18px;
             list-style: none;
+            text-transform: capitalize;
             border: 1px solid;
             border-color: 1px solid #000;
             box-shadow: 0px 1px 5px -1px hsla(0, 0%, 0%, 0.589);
@@ -19,7 +21,6 @@
             line-height: 40px;
             margin-bottom: 10px;
             padding: 0 15px;
-            font-size: 19px;
             font-weight: 500;
             position: relative;
 
@@ -66,6 +67,14 @@
                         background-image: url(../img/undo.png);
                     }
                 }
+            }
+
+            &:hover:not(.remove){
+                font-size: 21px;
+                transition: 400ms;
+                box-shadow: 0px 6px 7px 2px  hsla(0, 0%, 0%, 0.411);
+                border: 1px solid #ccc;
+                opacity: 1;
             }
         }
     }

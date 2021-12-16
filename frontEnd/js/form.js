@@ -12,6 +12,9 @@ class FormCad {
         let input = document.createElement('input')
         let button = document.createElement('button')
 
+        //form
+        form.setAttribute('action','javascript:window.enviar()')
+
 
         //input
         input.setAttribute('type','text')

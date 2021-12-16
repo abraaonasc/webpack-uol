@@ -17,7 +17,7 @@ form.form()
 getNames.showForm()
 nameService.getNames()
 clickEvents.clickEvents()
-clickEvents.clickEnviar()
+// clickEvents.clickEnviar()
 clickEvents.clickRemoveName()
 
 
