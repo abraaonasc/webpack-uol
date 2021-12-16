@@ -1,10 +1,7 @@
-import './scss/style.scss'
-import NameCad from '../backEnd/service'
-
-const post = new NameCad()
+import './scss/form.scss'
 
 class FormCad {
-     form = () =>{
+    form = () =>{
         console.log('form')
 
         let section = document.createElement('section')
@@ -36,16 +33,6 @@ class FormCad {
         form.appendChild(fieldSet)
 
         document.querySelector('body').appendChild(section)
-    }
-
-    clickEvents =()=>{
-        let button = document.getElementById("enviar")
-        button.onclick = function (event) {
-            event.preventDefault()
-            let id 
-            let name = document.querySelector('#name').value 
-            post.postName(id,name)
-        }
     }
 }
 

@@ -1,0 +1,47 @@
+.getNames{
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 4px;
+
+    ul{
+        padding: 0 25px;
+        li{
+            list-style: none;
+            box-shadow: 0px 1px 5px -1px hsla(0, 0%, 0%, 0.589);
+            line-height: 40px;
+            margin-bottom: 10px;
+            padding: 0 15px;
+            font-size: 19px;
+            font-weight: 500;
+            position: relative;
+
+            i{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 20px;
+                height: 20px;
+                background-color: #000;
+                cursor: pointer;
+                &.remove{
+                    display: none;
+                    right: 50px;
+                }
+            }
+
+            &.remove{
+                border: 2px solid red;
+                box-shadow: none;
+
+                i{
+                    &.remove{
+                        display: block;
+                        right: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,9 +1,7 @@
-
+import './scss/namelist.scss'
 
 class getName {
      showForm = () =>{
-        console.log('form')
-
         let section = document.createElement('section')
         section.classList.add('getNames')
 

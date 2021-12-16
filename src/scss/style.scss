@@ -18,47 +18,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-
-
-        .cadastro   {
-            border: 1px solid #ccc;
-            margin-top: 25px;
-            padding: 25px 20px;
-        
-            form{
-                fieldset{
-                    border:none;
-                    padding: 0px;
-        
-                    input{
-                        border: 1px solid #666;
-                        border-radius: 4px;
-                        max-width: 300px;
-                        width: 100%;
-                        height: 35px;
-                        padding-left: 10px;
-                        font-weight: 600;
-                        font-size: 20px;
-                        text-transform: capitalize;
-                        color: #242424;
-                    }
-                    
-                    button{
-                        background-color: #4caf50;
-                        color: #fff;
-                        border: none;
-                        height: 35px;
-                        border-radius: 4px;
-                        font-weight: 500;
-                        text-transform: uppercase;
-                        letter-spacing: 2px;
-                        font-family: 'Roboto', sans-serif;
-                        vertical-align: top;
-                    }
-                }
-            }
-        }
-    
 }
 
 .main-title{
@@ -66,4 +25,6 @@ body{
     color: #fff;
     padding: 20px;
     font-size: 30px;
+    padding: 25px 20px;
+    width: 100%;  
 }
