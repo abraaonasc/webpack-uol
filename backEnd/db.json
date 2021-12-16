@@ -1,20 +1,16 @@
 {
   "nomeCad": [
     {
-      "nome": "abraao",
+      "nome": "Abraao",
       "id": 1
     },
     {
-      "nome": "ana",
+      "nome": "Ana",
       "id": 2
     },
     {
-      "nome": "Adryel",
+      "nome": "adryel",
       "id": 3
-    },
-    {
-      "nome": "lukas",
-      "id": 4
     }
   ]
 }
